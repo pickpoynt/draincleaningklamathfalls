@@ -120,8 +120,8 @@ const Index = () => {
             </>
           }
           subtitle="Tulsa's trusted authority for high-performance infrastructure. We provide advanced slab leak detection, master drain restoration, and precision emergency repair. Mechanical Precision Mastercraft."
-          image="https://images.unsplash.com/photo-1607472586893-edb57bdc0739?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1542013936693-884638332a53?auto=format&fit=crop&q=80"
+          image="input_file_0.png"
+          overlayImage="input_file_1.png"
           badge="TULSA MASTER PLUMBERS"
         />
         <Services />
