@@ -11,13 +11,13 @@ const Footer = () => {
                 <Hammer className="w-6 h-6 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white">BARDSTOWN</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white">BARTLETT</span>
                 <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">PLUMBING PROS</span>
               </div>
             </div>
             <p className="text-slate-400 leading-relaxed font-medium">
-              Bardstown's premier technical plumbing specialists.
-              Utilizing master-licensed technology for technical infrastructure restoration across Nelson County.
+              Bartlett's premier technical plumbing specialists.
+              Utilizing master-licensed technology for technical infrastructure restoration across the Tri-County area.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors group">
@@ -75,7 +75,7 @@ const Footer = () => {
                 <div>
                   <p className="text-slate-500 text-sm font-bold uppercase tracking-wider mb-1 font-heading">Service Region</p>
                   <p className="text-white font-bold">
-                    Bardstown & Nelson County
+                    Bartlett & Tri-County Area
                   </p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Footer = () => {
 
         <div className="pt-10 border-t border-slate-900 flex flex-col md:row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm font-bold uppercase tracking-widest">
-            © {new Date().getFullYear()} BARDSTOWN PLUMBING PROS.
+            © {new Date().getFullYear()} BARTLETT PLUMBING PROS.
           </p>
           <div className="flex items-center gap-2 text-slate-600 text-[10px] items-center font-bold uppercase tracking-widest">
             <Hammer className="w-4 h-4 text-blue-500" />
@@ -101,19 +101,19 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Bardstown Plumbing Pros",
+          "name": "Bartlett Plumbing Pros",
           "telephone": "+18777921410",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Bardstown",
-            "addressRegion": "KY",
-            "postalCode": "40004",
+            "addressLocality": "Bartlett",
+            "addressRegion": "IL",
+            "postalCode": "60103",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "37.8092",
-            "longitude": "-85.4669"
+            "latitude": "41.9792",
+            "longitude": "-88.1848"
           },
           "openingHours": "Mo-Su 00:00-23:59"
         })}
