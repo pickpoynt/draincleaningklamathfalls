@@ -6,15 +6,15 @@ const WhyUs = () => {
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gold-500 to-transparent opacity-50" />
 
       {/* Background Texture */}
-      <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&q=80')] mix-blend-overlay pointer-events-none"></div>
+      <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1541944743827-e04bb645d99d?auto=format&fit=crop&q=80')] mix-blend-overlay pointer-events-none"></div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Escondido Trusts Our <span className="text-indigo-400">Slab Leak Experts</span>
+            Why Plano Trusts Our <span className="text-indigo-400">Drainage Experts</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Protecting North County foundations with technical precision. We specialize in advanced sub-slab leak detection and rapid local support for Escondido property owners.
+            Protecting Collin County estates with engineering precision. We specialize in advanced master-grade drain pipe installation and rapid local support for Plano property owners.
           </p>
         </div>
 
@@ -22,23 +22,23 @@ const WhyUs = () => {
           {[
             {
               icon: ShieldCheck,
-              title: "Technical Precision",
-              description: "We utilize advanced electronic acoustic diagnostics to pinpoint under-slab pipe failures with extreme accuracy, minimizing property impact."
+              title: "Engineering Precision",
+              description: "We utilize advanced technical specifications to install high-performance drainage systems that withstand the shifting soils of North Texas."
             },
             {
               icon: MapPin,
-              title: "Escondido Local",
-              description: "Our teams are based in North County, meaning rapid response times when slab leaks and foundation moisture appear in the Escondido area."
+              title: "Plano Local",
+              description: "Our teams are based in Collin County, meaning rapid response times when drainage failures and yard flooding appear in the Plano area."
             },
             {
               icon: Calendar,
-              title: "Emergency Response",
-              description: "Slab leaks are immediate threats to foundation integrity. We offer priority dispatching for Escondido foundation plumbing assessments."
+              title: "Rapid Installation",
+              description: "Main line collapses are immediate threats to property integrity. We offer priority dispatching for Plano sewer and drain pipe assessments."
             },
             {
               icon: DollarSign,
               title: "Transparent Pricing",
-              description: "Honest, detailed technical assessments. We provide clear findings and upfront pricing for any necessary under-slab pipe restoration."
+              description: "Honest, detailed technical assessments. We provide clear scopes and upfront pricing for any necessary drainage system installation."
             }
           ].map((feature, index) => (
             <div
@@ -48,7 +48,7 @@ const WhyUs = () => {
               <div className="w-14 h-14 rounded-2xl bg-indigo-600/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <feature.icon className="w-7 h-7 text-indigo-500" />
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{feature.title}</h3>
+              <h3 className="text-xl font-bold mb-3 text-white uppercase tracking-tight">{feature.title}</h3>
               <p className="text-slate-400 leading-relaxed font-medium">
                 {feature.description}
               </p>
@@ -58,9 +58,9 @@ const WhyUs = () => {
 
         <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-indigo-600 to-indigo-800 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl shadow-indigo-900/40 transform hover:scale-[1.02] transition-transform duration-500">
           <div className="max-w-xl">
-            <h3 className="text-3xl font-bold text-white mb-4">Slab Leak Emergency?</h3>
+            <h3 className="text-3xl font-bold text-white mb-4 uppercase tracking-tight">Drainage Emergency?</h3>
             <p className="text-blue-50 text-lg font-medium opacity-90">
-              Don't wait for foundation flooding. Our Escondido specialist team is ready to restore your systems 24/7.
+              Don't wait for property flooding. Our Plano specialist team is ready to restore your systems 24/7.
             </p>
           </div>
           <a

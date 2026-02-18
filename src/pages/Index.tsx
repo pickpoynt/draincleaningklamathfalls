@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import EscondidoSlabLeakInfo from "@/components/landing/EscondidoSlabLeakInfo";
+import PlanoDrainInstallationInfo from "@/components/landing/PlanoDrainInstallationInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,39 +15,39 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>slab leak detection escondido | Escondido Slab Leak Pros</title>
-        <meta name="description" content="slab leak detection escondido - Professional concrete slab leak detection in Escondido, CA. Expert sub-slab diagnostics and foundation plumbing solutions. Call (877) 792-1410." />
-        <meta name="keywords" content="slab leak detection escondido, Escondido CA slab repair, sub-slab water leak detection, foundation leak repair North County" />
-        <link rel="canonical" href="https://slab-leak-detection-escondido.com/" />
+        <title>drain pipe installation plano tx | Plano Drain Pipe Pros</title>
+        <meta name="description" content="drain pipe installation plano tx - Professional drain pipe installation in Plano, TX. Expert sewage line replacement and residential drainage solutions. Call (877) 792-1410." />
+        <meta name="keywords" content="drain pipe installation plano tx, Plano TX drain repair, sewer line installation, residential drainage Plano, French drain Plano" />
+        <link rel="canonical" href="https://drain-pipe-installation-plano.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Escondido Slab Leak Pros",
-            "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80",
+            "name": "Plano Drain Pipe Pros",
+            "image": "https://images.unsplash.com/photo-1541944743827-e04bb645d99d?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "201 N Broadway",
-              "addressLocality": "Escondido",
-              "addressRegion": "CA",
-              "postalCode": "92025",
+              "streetAddress": "5800 Tennyson Pkwy",
+              "addressLocality": "Plano",
+              "addressRegion": "TX",
+              "postalCode": "75024",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "33.1247",
-              "longitude": "-117.0809"
+              "latitude": "33.0198",
+              "longitude": "-96.6989"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Escondido, California"
+              "name": "Plano, Texas"
             },
             "priceRange": "$$$",
-            "description": "Expert slab leak detection and sub-slab foundation repair services in Escondido, CA. Specialized in non-invasive electronic diagnostics and structural solutions."
+            "description": "Expert drain pipe installation and sewer line replacement services in Plano, TX. Specialized in residential drainage solutions and yard drainage systems."
           })}
         </script>
 
@@ -56,39 +56,39 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Slab Leak Detection",
+            "serviceType": "Drain Pipe Installation",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Escondido Slab Leak Pros",
+              "name": "Plano Drain Pipe Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Escondido, CA"
+              "name": "Plano, TX"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Escondido Slab Detection Catalog",
+              "name": "Plano Drainage Services Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Electronic Slab Leak Detection"
+                    "name": "Sewer Line Installation"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Under-Slab Pipe Repair"
+                    "name": "French Drain Systems"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Thermal Imaging Diagnostics"
+                    "name": "Storm Drain Management"
                   }
                 }
               ]
@@ -97,11 +97,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="slab leak detection escondido - Escondido Slab Leak Pros" />
-        <meta property="og:description" content="Advanced slab leak detection and sub-slab foundation repair in Escondido, CA. Protect your property with non-invasive diagnostics." />
+        <meta property="og:title" content="drain pipe installation plano tx - Plano Drain Pipe Pros" />
+        <meta property="og:description" content="Professional drain pipe installation and sewer line replacement in Plano, TX. Protect your property with advanced drainage solutions." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://slab-leak-detection-escondido.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://drain-pipe-installation-plano.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1541944743827-e04bb645d99d?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -109,18 +109,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              slab leak detection escondido
-              <span className="block text-emerald-400 mt-2 text-2xl md:text-3xl italic">Escondido Slab Leak Pros</span>
+              drain pipe installation plano tx
+              <span className="block text-emerald-400 mt-2 text-2xl md:text-3xl italic">Plano Drain Pipe Pros</span>
             </>
           }
-          subtitle="Escondido's premier experts in non-invasive slab leak detection and sub-slab foundation repair. We utilize advanced electronic acoustic technology and thermal imaging to pinpoint leaks with zero unnecessary demolition. Safeguarding North County homes."
-          image="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?auto=format&fit=crop&q=80"
-          badge="ESCONDIDO SLAB DETECTION SPECIALISTS"
+          subtitle="Plano's premier experts in master-grade drain pipe installation and sewer main replacement. We design high-performance drainage systems tailored for North Texas soils, ensuring long-term structural integrity. Engineering excellence for Collin County."
+          image="https://images.unsplash.com/photo-1585704032915-c3400ca1f963?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80"
+          badge="PLANO DRAINAGE INSTALLATION SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <EscondidoSlabLeakInfo />
+        <PlanoDrainInstallationInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
@@ -132,3 +132,4 @@ const Index = () => {
 };
 
 export default Index;
+
