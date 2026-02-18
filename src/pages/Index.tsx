@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import DesMoinesPipeLiningInfo from "@/components/landing/DesMoinesPipeLiningInfo";
+import EscondidoSlabLeakInfo from "@/components/landing/EscondidoSlabLeakInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,39 +15,39 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>trenchless pipe lining des moines | Des Moines Pipe Lining Pros</title>
-        <meta name="description" content="trenchless pipe lining des moines - Expert no-dig sewer and pipe lining in Des Moines, IA. Professional CIPP restoration for residential and commercial lines. Call (877) 792-1410 today." />
-        <meta name="keywords" content="trenchless pipe lining des moines, Des Moines sewer lining, no-dig pipe repair Iowa, CIPP lining Des Moines Polk County" />
-        <link rel="canonical" href="https://trenchless-pipe-lining-des-moines.com/" />
+        <title>slab leak detection escondido | Escondido Slab Leak Pros</title>
+        <meta name="description" content="slab leak detection escondido - Professional concrete slab leak detection in Escondido, CA. Expert sub-slab diagnostics and foundation plumbing solutions. Call (877) 792-1410." />
+        <meta name="keywords" content="slab leak detection escondido, Escondido CA slab repair, sub-slab water leak detection, foundation leak repair North County" />
+        <link rel="canonical" href="https://slab-leak-detection-escondido.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Des Moines Pipe Lining Pros",
-            "image": "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80",
+            "name": "Escondido Slab Leak Pros",
+            "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "400 Locust St",
-              "addressLocality": "Des Moines",
-              "addressRegion": "IA",
-              "postalCode": "50309",
+              "streetAddress": "201 N Broadway",
+              "addressLocality": "Escondido",
+              "addressRegion": "CA",
+              "postalCode": "92025",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "41.5868",
-              "longitude": "-93.6250"
+              "latitude": "33.1247",
+              "longitude": "-117.0809"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Des Moines, Iowa"
+              "name": "Escondido, California"
             },
             "priceRange": "$$$",
-            "description": "Leading providers of trenchless pipe lining and no-dig sewer restoration in Des Moines, IA. Utilizing CIPP technology to repair underground infrastructure without excavation."
+            "description": "Expert slab leak detection and sub-slab foundation repair services in Escondido, CA. Specialized in non-invasive electronic diagnostics and structural solutions."
           })}
         </script>
 
@@ -56,39 +56,39 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Trenchless Pipe Lining",
+            "serviceType": "Slab Leak Detection",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Des Moines Pipe Lining Pros",
+              "name": "Escondido Slab Leak Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Des Moines, IA"
+              "name": "Escondido, CA"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Des Moines Trenchless Services",
+              "name": "Escondido Slab Detection Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Sewer Pipe Lining (CIPP)"
+                    "name": "Electronic Slab Leak Detection"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Trenchless Sewer Repair"
+                    "name": "Under-Slab Pipe Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Sectional Point Repair"
+                    "name": "Thermal Imaging Diagnostics"
                   }
                 }
               ]
@@ -97,11 +97,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="trenchless pipe lining des moines - Des Moines Pipe Lining Pros" />
-        <meta property="og:description" content="Expert trenchless pipe lining and no-dig sewer repair in Des Moines, IA. Restore your pipes without destroying your yard." />
+        <meta property="og:title" content="slab leak detection escondido - Escondido Slab Leak Pros" />
+        <meta property="og:description" content="Advanced slab leak detection and sub-slab foundation repair in Escondido, CA. Protect your property with non-invasive diagnostics." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://trenchless-pipe-lining-des-moines.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://slab-leak-detection-escondido.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -109,18 +109,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              trenchless pipe lining des moines
-              <span className="block text-emerald-400 mt-2 text-2xl md:text-3xl italic">Des Moines Pipe Lining Pros</span>
+              slab leak detection escondido
+              <span className="block text-emerald-400 mt-2 text-2xl md:text-3xl italic">Escondido Slab Leak Pros</span>
             </>
           }
-          subtitle="Iowa's leading infrastructure specialists for no-dig pipe restoration and trenchless sewer lining. We utilize advanced CIPP technology to seal and reinforce your underground lines with zero excavation. Protecting Des Moines properties for decades."
-          image="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
-          overlayImage="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80"
-          badge="DES MOINES TRENCHLESS SPECIALISTS"
+          subtitle="Escondido's premier experts in non-invasive slab leak detection and sub-slab foundation repair. We utilize advanced electronic acoustic technology and thermal imaging to pinpoint leaks with zero unnecessary demolition. Safeguarding North County homes."
+          image="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?auto=format&fit=crop&q=80"
+          badge="ESCONDIDO SLAB DETECTION SPECIALISTS"
         />
         <Services />
         <WhyUs />
-        <DesMoinesPipeLiningInfo />
+        <EscondidoSlabLeakInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

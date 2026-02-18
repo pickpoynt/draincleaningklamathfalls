@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Comprehensive <span className="text-indigo-600">Trenchless Solutions</span>
+            Comprehensive <span className="text-indigo-600">Slab Leak Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Des Moines property owners trust us for technical pipe diagnostics and precision no-dig restoration. We provide specialized care for all of Polk County.
+            Escondido property owners trust us for technical sub-slab diagnostics and precision foundation restoration. We provide specialized care for North County.
           </p>
         </div>
 
@@ -17,26 +17,26 @@ const Services = () => {
           {[
             {
               icon: Zap,
-              title: "Sewer Lining",
-              description: "We use advanced CIPP technology to create a new, seamless pipe inside your old one, sealing all leaks and preventing future root intrusion.",
+              title: "Leak Detection",
+              description: "We use advanced electronic acoustic sensors to pinpoint hidden water line failures under Escondido foundations with extreme surgical precision.",
               link: "#contact"
             },
             {
               icon: Drill,
-              title: "Pipe Bursting",
-              description: "Specialized trenchless replacement for severely damaged lines that can't be lined, replacing the old pipe with a brand-new HDPE line.",
+              title: "Slab Repair",
+              description: "Specialized sub-slab water line restoration that addresses pressurized line failures and prevents further foundation flooding and erosion.",
               link: "#contact"
             },
             {
               icon: Camera,
-              title: "HD Inspections",
-              description: "High-tech robotic camera scans to identify structural failures, blockages, and pipe conditions without a single shovel of dirt moved.",
+              title: "Thermal Scans",
+              description: "High-tech infrared camera scans to identify heat signatures of hot water line leaks within the concrete structure of North County homes.",
               link: "#contact"
             },
             {
               icon: Waves,
               title: "Emergency Repair",
-              description: "Sewer failures are critical. Our 24/7 Des Moines team is ready to tackle urgent backups and underground plumbing emergencies.",
+              description: "Water line failures are critical. Our 24/7 Escondido team is ready to tackle urgent slab leaks and sub-floor plumbing emergencies.",
               link: "#contact"
             }
           ].map((service, index) => (

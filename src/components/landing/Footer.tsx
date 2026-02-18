@@ -8,33 +8,22 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center border border-blue-500/20">
-                <Pipette className="w-7 h-7 text-blue-500" />
+                <Locate className="w-7 h-7 text-blue-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Des Moines Pipe</span>
-                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Lining Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Escondido Slab</span>
+                <span className="text-sm font-medium text-blue-500 uppercase tracking-widest text-[10px]">Leak Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Iowa's leading infrastructure specialists. We provide permanent, no-dig solutions for sewer and water line restoration across Des Moines and Polk County.
+              Escondido's specialized foundation plumbing experts. We provide permanent, non-invasive solutions for sub-slab water leak detection across San Diego North County.
             </p>
-            <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors group">
-                <Facebook className="w-5 h-5 text-slate-400 group-hover:text-white" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors group">
-                <Instagram className="w-5 h-5 text-slate-400 group-hover:text-white" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors group">
-                <Linkedin className="w-5 h-5 text-slate-400 group-hover:text-white" />
-              </a>
-            </div>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["CIPP Pipe Lining", "Trenchless Sewer Repair", "No-Dig Restoration", "Video Pipe Inspection", "Point Repairs"].map((item) => (
+              {["Acoustic Leak Detection", "Thermal Imaging Scans", "Sub-Slab Pipe Repair", "Foundation Plumbing Scans"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-blue-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-blue-500/40 group-hover:w-2 transition-all" />
@@ -65,8 +54,8 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  400 Locust St<br />
-                  Des Moines, IA 50309
+                  201 N Broadway<br />
+                  Escondido, CA 92025
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -81,7 +70,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Des Moines Pipe Lining Pros. All rights reserved. Iowa's Trenchless Authority.
+            © {new Date().getFullYear()} Escondido Slab Leak Pros. All rights reserved. North County Foundation Authorities.
           </p>
         </div>
       </div>
@@ -92,22 +81,22 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Des Moines Pipe Lining Pros",
+          "name": "Escondido Slab Leak Pros",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "400 Locust St",
-            "addressLocality": "Des Moines",
-            "addressRegion": "IA",
-            "postalCode": "50309",
+            "streetAddress": "201 N Broadway",
+            "addressLocality": "Escondido",
+            "addressRegion": "CA",
+            "postalCode": "92025",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "41.5868",
-            "longitude": "-93.6250"
+            "latitude": "33.1247",
+            "longitude": "-117.0809"
           },
           "telephone": "+18777921410",
-          "url": "https://trenchless-pipe-lining-des-moines.com/"
+          "url": "https://slab-leak-detection-escondido.com/"
         })}
       </script>
     </footer>

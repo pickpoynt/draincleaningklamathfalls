@@ -9,14 +9,14 @@ const Contact = () => {
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-100 text-indigo-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
-                <Hammer className="w-4 h-4" />
-                DES MOINES PIPE LINING PROS
+                <Locate className="w-4 h-4" />
+                ESCONDIDO SLAB LEAK PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule <span className="text-indigo-600">Des Moines Repair</span>
+                Schedule <span className="text-indigo-600">Escondido Diagnostic</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Modernize your Iowa home's infrastructure. Our Des Moines-based team provides permanent, no-dig solutions for sewer and water pipe restoration throughout Polk County.
+                Protect your Southern California home's foundation. Our Escondido-based team provides technical, no-dig solutions for sub-slab water leak detection throughout San Diego County.
               </p>
 
               <div className="space-y-8">
@@ -25,7 +25,7 @@ const Contact = () => {
                     <Phone className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">SERVICE HOTLINE</p>
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">DETECTION HOTLINE</p>
                     <a href="tel:8777921410" className="text-2xl font-bold text-slate-900 hover:text-indigo-600 transition-colors">
                       (877) 792-1410
                     </a>
@@ -37,8 +37,8 @@ const Contact = () => {
                     <ShieldCheck className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">IOWA LICENSED</p>
-                    <p className="text-xl font-bold text-slate-900">Polk County Certified</p>
+                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">CALIFORNIA LICENSED</p>
+                    <p className="text-xl font-bold text-slate-900">North County Certified</p>
                   </div>
                 </div>
 
@@ -48,14 +48,14 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">Des Moines & Metro Area</p>
+                    <p className="text-xl font-bold text-slate-900">Escondido & North San Diego</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-white rounded-[2.5rem] p-10 shadow-2xl shadow-indigo-900/10 border border-slate-100">
-              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Estimate</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-8 uppercase tracking-widest">Request Diagnostic</h3>
               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
@@ -78,10 +78,10 @@ const Contact = () => {
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Service Required</label>
                   <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium">
-                    <option>Sewer Pipe Lining</option>
-                    <option>Trenchless Pipe Repair</option>
-                    <option>Video Pipe Inspection</option>
-                    <option>Sectional Point Repair</option>
+                    <option>Acoustic Leak Detection</option>
+                    <option>Thermal Imaging Scan</option>
+                    <option>Electronic Pipe Locating</option>
+                    <option>Slab Repair Consultation</option>
                     <option>Emergency Service</option>
                   </select>
                 </div>
@@ -90,14 +90,14 @@ const Contact = () => {
                   <textarea
                     rows={4}
                     className="w-full bg-slate-50 border-slate-200 rounded-xl p-6 focus:ring-2 focus:ring-indigo-500 transition-all outline-none font-medium"
-                    placeholder="Describe your sewer or drain pipe concerns..."
+                    placeholder="Describe your slab or foundation plumbing concerns..."
                   ></textarea>
                 </div>
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-xl text-lg font-bold shadow-lg shadow-indigo-900/20 uppercase tracking-widest transition-all">
-                  Get Free Estimate
+                  Get Technical Quote
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
-                  *24/7 Priority response for Des Moines sewer emergencies
+                  *24/7 Priority diagnostics for Escondido foundation emergencies
                 </p>
               </form>
             </div>
